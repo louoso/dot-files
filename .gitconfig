@@ -10,6 +10,8 @@
   co      = checkout
   ls      = ls-files
   hist    = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+  rh      = reset --hard
+  rs      = reset --soft
 
 [color]
   # turn on color
