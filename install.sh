@@ -11,8 +11,9 @@ do
   then
     echo "moving $file to $file.bak"
     mv "$file" "$file.bak"
-  else
-    echo "$file is not a file or a sym link"
+  elif [ -e "$file" ]
+  then
+    echo "$file is not a file or a symlink"
   fi
   ln -s "${PWD}/$name" "$file"
 done
