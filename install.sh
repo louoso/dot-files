@@ -1,0 +1,18 @@
+#!/bin/bash
+
+for name in '.bashrc' '.gitconfig' '.emacs'
+do
+  file="${HOME}/$name"
+  if [ -h "$file" ]
+  then
+    echo "removing symlink for $file"
+    rm "$file"
+  elif [ -f "$file" ]
+  then
+    echo "moving $file to $file.bak"
+    mv "$file" "$file.bak"
+  else
+    echo "$file is not a file or a sym link"
+  fi
+  ln -s "${PWD}/$name" "$file"
+done

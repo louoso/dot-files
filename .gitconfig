@@ -1,0 +1,37 @@
+[user]
+  email = imnotatwork@gmail.com
+  name  = Louis Vera
+
+[alias]
+  aa      = !git ls-files -z -d | xargs -0 git rm && git ls-files -z -m -o --exclude-standard | xargs -0 git add
+  st      = status
+  cm      = commit
+  br      = branch
+  co      = checkout
+  ls      = ls-files
+  hist    = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+
+[color]
+  # turn on color
+  ui = true
+
+[color "status"]
+  added     = green
+  changed   = cyan
+  untracked = red
+
+[color "branch"]
+  current = green
+  local   = cyan
+  remote  = magenta
+
+[push]
+  # 'git push' should only do the current branch, not all
+  default = current
+
+[branch]
+  # always setup 'git pull' to rebase instead of merge
+  autosetuprebase = always
+
+[format]
+  pretty = format:%C(cyan)%h%n%Creset%an <%ae>%n%ar%n%n%w(63,4,4)%s%n%+b
