@@ -1,6 +1,3 @@
-# If not running interactively, don't do anything
-[ -z "$PS1" ] && return
-
 export PS1='\u \w $(__git_ps1 "(%s)") $ '
 export EDITOR=vim
 export GREP_OPTIONS='--color=auto'
