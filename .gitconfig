@@ -25,7 +25,7 @@
 [color "branch"]
   current = green
   local   = cyan
-  remote  = magenta
+  remote  = cyan 
 
 [push]
   # 'git push' should only do the current branch, not all
