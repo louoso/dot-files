@@ -16,6 +16,7 @@ set ts=2
 set sw=2
 set expandtab
 set autoread
+set number
 
 set encoding=utf-8
 setglobal fileencoding=utf-8
