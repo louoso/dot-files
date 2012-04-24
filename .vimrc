@@ -20,7 +20,7 @@ set backspace=indent,eol,start
 set history=100
 set hidden
 set visualbell
-set nowrap
+set wrap
 set linebreak
 
 set incsearch
