@@ -25,6 +25,8 @@ set wrap
 set linebreak
 set ruler
 
+set shellcmdflag=-ic
+
 set incsearch
 set hlsearch
 
