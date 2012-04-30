@@ -7,3 +7,5 @@ export CLICOLOR=1
 if [ -f "${HOME}/dot-files/etc/git-completion.bash" ]; then
   source "${HOME}/dot-files/etc/git-completion.bash"
 fi
+
+alias fj='python -mjson.tool'
