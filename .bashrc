@@ -9,3 +9,4 @@ if [ -f "${HOME}/dot-files/etc/git-completion.bash" ]; then
 fi
 
 alias fj='python -mjson.tool'
+alias ls='ls --color=auto'
