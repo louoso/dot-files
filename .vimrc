@@ -2,6 +2,8 @@ set nocompatible
 
 syntax enable
 set background=light
+se t_Co=16
+let g:solarized_termcolors=16
 colorscheme solarized
 
 filetype on
