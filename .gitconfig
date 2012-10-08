@@ -3,7 +3,7 @@
   name  = Louis Vera
 
 [alias]
-  aa      = !git ls-files -z -d | xargs -0 git rm && git ls-files -z -m -o --exclude-standard | xargs -0 git add
+  aa      = add -A 
   st      = status
   cm      = commit
   br      = branch
