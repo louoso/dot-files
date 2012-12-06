@@ -47,8 +47,8 @@ set nofoldenable
 set wildmode=list:longest
 set wildmenu
 
-nnoremap ' `
-nnoremap ` '
+noremap ' `
+noremap ` '
 
 set encoding=utf-8
 setglobal fileencoding=utf-8
@@ -70,8 +70,8 @@ noremap  <buffer> <silent> k gk
 noremap  <buffer> <silent> j gj
 noremap  <buffer> <silent> 0 g0
 noremap  <buffer> <silent> $ g$
-nnoremap <leader><space> :noh<cr>
-nnoremap <tab> %
+noremap <leader><space> :noh<cr>
+noremap <tab> %
 
 map <F1> <esc>
 map <F2> <esc>:.w !pbcopy<CR><CR>
