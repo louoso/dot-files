@@ -1,6 +1,8 @@
 set nocompatible
 set modelines=0
 
+let mapleader = ","
+
 syntax enable
 set background=light
 colorscheme solarized
@@ -30,6 +32,8 @@ set shellcmdflag=-ic
 
 set incsearch
 set hlsearch
+set ignorecase
+set smartcase
 
 set backupdir=$TMPDIR,/tmp
 set directory=$TMPDIR,/tmp
@@ -66,6 +70,8 @@ noremap  <buffer> <silent> k gk
 noremap  <buffer> <silent> j gj
 noremap  <buffer> <silent> 0 g0
 noremap  <buffer> <silent> $ g$
+nnoremap <leader><space> :noh<cr>
+nnoremap <tab> %
 
 map <F1> <esc>
 map <F2> <esc>:.w !pbcopy<CR><CR>
