@@ -1,4 +1,5 @@
 set nocompatible
+set modelines=0
 
 syntax enable
 set background=light
