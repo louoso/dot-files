@@ -12,7 +12,7 @@ filetype indent on
 filetype plugin on
 
 set clipboard=unnamed
-set tags=./tags,tags
+set tags=./tags;/
 set dictionary=/usr/share/dict/words
 set ts=2
 set sw=2
