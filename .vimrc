@@ -79,3 +79,5 @@ map <F3> <esc>:r !pbpaste<CR><CR>
 
 "disable 'ex' mode
 map Q <esc>
+
+call pathogen#infect()
