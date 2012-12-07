@@ -12,7 +12,7 @@ filetype indent on
 filetype plugin on
 
 set clipboard=unnamed
-set tags=tags
+set tags=./tags,tags
 set dictionary=/usr/share/dict/words
 set ts=2
 set sw=2
@@ -27,8 +27,6 @@ set visualbell
 set wrap
 set linebreak
 set ruler
-
-set shellcmdflag=-ic
 
 set incsearch
 set hlsearch
@@ -80,4 +78,22 @@ map <F3> <esc>:r !pbpaste<CR><CR>
 "disable 'ex' mode
 map Q <esc>
 
+let g:tagbar_ctags_bin='/opt/local/bin/ctags'
+
 call pathogen#infect()
+
+let g:tagbar_type_scala = {
+    \ 'ctagstype' : 'Scala',
+    \ 'kinds'     : [
+        \ 'p:packages:1',
+        \ 'V:values',
+        \ 'v:variables',
+        \ 'T:types',
+        \ 't:traits',
+        \ 'o:objects',
+        \ 'a:aclasses',
+        \ 'c:classes',
+        \ 'r:cclasses',
+        \ 'm:methods'
+    \ ]
+\ }
