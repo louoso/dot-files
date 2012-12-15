@@ -80,7 +80,7 @@ map <F3> <esc>:r !pbpaste<CR><CR>
 "disable 'ex' mode
 map Q <esc>
 
-let g:tagbar_ctags_bin='/opt/local/bin/ctags'
+let g:tagbar_ctags_bin='/usr/bin/ctags'
 
 call pathogen#infect()
 
