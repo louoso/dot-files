@@ -17,3 +17,7 @@ alias ls='ls --color=auto'
 if [ -f ~/.dircolors ]; then
   . ~/.dircolors
 fi
+
+# emulate pbcopy & pbpaste
+alias pbcopy='xclip -selection clipboard'
+alias pbpaste='xclip -selection clipboard -o'
