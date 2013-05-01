@@ -36,7 +36,7 @@
   autosetuprebase = always
 
 [format]
-  pretty = format:%C(cyan)%h%n%Creset%an <%ae>%n%ar%n%n%w(63,4,4)%s%n%+b
+  pretty = format:%C(cyan)%h%n%Creset%an <%ae>%n%cr%n%n%w(63,4,4)%s%n%+b
 
 [core]
   autocrlf = input
