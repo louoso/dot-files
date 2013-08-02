@@ -97,3 +97,5 @@ let g:tagbar_type_scala = {
         \ 'm:methods'
     \ ]
 \ }
+
+set wildignore+=*.class
