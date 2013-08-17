@@ -101,3 +101,4 @@ let g:tagbar_type_scala = {
 \ }
 
 set wildignore+=*.class
+let g:netrw_home=$HOME
