@@ -1,6 +1,9 @@
-[submodule ".vim/bundle/tagbar"]
-	path = .vim/bundle/tagbar
-	url = git://github.com/majutsushi/tagbar
 [submodule ".vim/bundle/ctrlp.vim"]
 	path = .vim/bundle/ctrlp.vim
 	url = git@github.com:kien/ctrlp.vim.git
+[submodule ".vim/bundle/comment"]
+	path = .vim/bundle/comment
+	url = git@github.com:tpope/vim-commentary.git
+[submodule ".vim/bundle/surround"]
+	path = .vim/bundle/surround
+	url = git@github.com:tpope/vim-surround.git
