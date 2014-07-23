@@ -41,3 +41,6 @@
 [core]
   autocrlf = input
   excludesfile = ~/.gitignore-global
+
+[fetch]
+  prune = true
