@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for name in '.bashrc' '.gitconfig' '.emacs' '.vim' '.vimrc' '.dircolors' '.ctags' '.gitignore-global'
+for name in '.bashrc' '.gitconfig' '.emacs' '.vim' '.vimrc' '.dircolors' '.gitignore-global'
 do
   file="${HOME}/$name"
   if [ -h "$file" ]; then
