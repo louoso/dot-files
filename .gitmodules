@@ -7,3 +7,6 @@
 [submodule ".vim/bundle/surround"]
 	path = .vim/bundle/surround
 	url = git@github.com:tpope/vim-surround.git
+[submodule ".vim/bundle/editorconfig"]
+	path = .vim/bundle/editorconfig
+	url = https://github.com/editorconfig/editorconfig-vim.git
