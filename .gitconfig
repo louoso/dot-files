@@ -44,3 +44,6 @@
 
 [fetch]
   prune = true
+
+[pager]
+  stash = false
