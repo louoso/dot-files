@@ -82,3 +82,4 @@ call pathogen#infect()
 
 set wildignore+=*.class
 let g:netrw_home=$HOME
+set re=0
