@@ -23,7 +23,6 @@ Compiled source #
 # Logs and databases #
 ######################
 *.log
-*.sql
 *.sqlite
 
 # OS generated files #
@@ -77,7 +76,7 @@ tags
 # project skeleton #
 ####################
 dist
-lib
+# lib
 log
 out
 target
